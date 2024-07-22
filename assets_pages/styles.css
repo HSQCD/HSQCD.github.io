@@ -1,13 +1,12 @@
-/* Base styles for all devices */
 body, html {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
-    overflow: hidden;
+    height: auto; /* Allows for content overflow */
     background-color: #000;
     color: #ffffff;
     font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevents horizontal scroll */
 }
 
 #particles-js {
