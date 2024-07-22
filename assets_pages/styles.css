@@ -82,6 +82,8 @@ p {
 
     .arrow-container {
         gap: 5px;
+        /* Ensure arrows stay on a single line */
+        flex-wrap: nowrap;
     }
 }
 
@@ -97,12 +99,10 @@ p {
     }
 
     .arrow-container {
-        flex-direction: column;
         gap: 5px;
-    }
-
-    .arrow-link {
-        display: block;
-        margin-bottom: 10px;
+        /* Ensure arrows stay on a single line */
+        flex-wrap: nowrap;
+        /* Adjust container width to fit arrows horizontally */
+        width: 100%;
     }
 }
